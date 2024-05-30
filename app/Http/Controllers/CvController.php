@@ -19,8 +19,6 @@ class CvController extends Controller
         $pdf = SnappyPdf::loadView('my_cv')->setPaper('a4')->setOrientation('landscape')->setOption('margin-bottom', 0);
         return $pdf->download('usman_cv.pdf');
 
-        dd("done");
-
         $snappy = App::make('snappy.pdf');
 
         $html = view('my_cv')->render();
