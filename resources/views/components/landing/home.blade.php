@@ -6,7 +6,7 @@
         <div class="d-table-cell">
             <div class="container">
                 <div class="banner-content">
-                    <h1>Pufo Milano</h1>
+                    <h1>Usman arif</h1>
                     <p>Hello I am a <span>UI/UX Designer</span> from San Francisco. I have rich experience
                         of 5+ years in web site design and app design, also I am good at extraordinary
                         design concept. I love to hear from you about your unique needs.</p>
