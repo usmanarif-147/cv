@@ -7,8 +7,8 @@
             <div class="container">
                 <div class="banner-content">
                     <h1>Usman arif</h1>
-                    <p>Hello I am a <span>UI/UX Designer</span> from San Francisco. I have rich experience
-                        of 5+ years in web site design and app design, also I am good at extraordinary
+                    <p>Hello I am a <span>Laravel Developer</span> from Lahore. I have rich experience
+                        of 3+ years in web site design and app design, also I am good at extraordinary
                         design concept. I love to hear from you about your unique needs.</p>
                     <div class="banner-btn-area">
                         <a class="common-btn" href="#">Contact With Me</a>
