@@ -1,13 +1,80 @@
-table, td, th {
-    border: 1px solid #ddd;
-    text-align: left;
-  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
+.container {
+    /* display: flex; */
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  th, td {
-    padding: 15px;
-  }
+.left-section {
+    width: 350px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.left-section .photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.left-section h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.left-section p, .left-section ul {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.left-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-section ul li {
+    background-color: #444;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.right-section {
+    width: 650px;
+    padding: 20px;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.right-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+.right-section .job {
+    margin-bottom: 20px;
+}
+
+.right-section .job h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.right-section .job p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}

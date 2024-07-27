@@ -14,9 +14,16 @@ class CvController extends Controller
 {
     public function download()
     {
-
+        return view('my_cv');
+        $data = [
+            'name' => 'usman',
+            'title' => 'Software engineer'
+        ];
         // $pdf = SnappyPdf::loadView('my_cv', [])->setPaper();
-        $pdf = SnappyPdf::loadView('my_cv')->setPaper('a4')->setOrientation('landscape')->setOption('margin-bottom', 0);
+        $pdf = SnappyPdf::loadView('my_cv', $data)
+            ->setPaper('a4')
+            ->setOrientation('landscape')
+            ->setOption('margin-bottom', 0);
         return $pdf->download('usman_cv.pdf');
 
         // $snappy = App::make('snappy.pdf');
