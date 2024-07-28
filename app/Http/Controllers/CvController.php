@@ -14,7 +14,17 @@ class CvController extends Controller
 {
     public function download()
     {
-        return view('my_cv');
+        $pdf = SnappyPdf::loadView('chartjs');
+        $pdf->setOption('enable-javascript', true);
+        $pdf->setOption('javascript-delay', 5000);
+        $pdf->setOption('enable-smart-shrinking', true);
+        $pdf->setOption('no-stop-slow-scripts', true);
+        return $pdf->download('chart.pdf');
+    }
+
+    public function old_download()
+    {
+        // return view('my_cv');
         $data = [
             'name' => 'usman',
             'title' => 'Software engineer'
