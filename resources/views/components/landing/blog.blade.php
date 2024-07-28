@@ -15,7 +15,7 @@
                 <div class="blog-item">
                     <div class="top">
                         <a href="blog-details.html">
-                            <img src="assets/img/blog/blog1.jpg" alt="Blog">
+                            <img src="{{ asset('landing/img/blog/blog1.jpg') }}" alt="Blog">
                         </a>
                         <h4>12 <span>Oct</span></h4>
                     </div>
@@ -37,7 +37,7 @@
                 <div class="blog-item">
                     <div class="top">
                         <a href="blog-details.html">
-                            <img src="assets/img/blog/blog2.jpg" alt="Blog">
+                            <img src="{{ asset('landing/img/blog/blog2.jpg') }}" alt="Blog">
                         </a>
                         <h4>13 <span>Oct</span></h4>
                     </div>

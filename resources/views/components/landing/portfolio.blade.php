@@ -8,7 +8,7 @@
             <div class="col-sm-6 col-lg-6">
                 <div class="portfolio-item">
                     <div class="top">
-                        <img src="assets/img/portfolio/portfolio1.jpg" alt="Portfolio">
+                        <img src="{{ asset('landing/img/portfolio/portfolio1.jpg') }}" alt="Portfolio">
                     </div>
                     <div class="bottom">
                         <div class="bottom-one">
@@ -31,7 +31,7 @@
             <div class="col-sm-6 col-lg-6">
                 <div class="portfolio-item">
                     <div class="top">
-                        <img src="assets/img/portfolio/portfolio2.jpg" alt="Portfolio">
+                        <img src="{{ asset('landing/img/portfolio/portfolio2.jpg') }}" alt="Portfolio">
                     </div>
                     <div class="bottom">
                         <div class="bottom-one">
@@ -54,7 +54,7 @@
             <div class="col-lg-12">
                 <div class="portfolio-item three">
                     <div class="top">
-                        <img src="assets/img/portfolio/portfolio3.jpg" alt="Portfolio">
+                        <img src="{{ asset('landing/img/portfolio/portfolio3.jpg') }}" alt="Portfolio">
                     </div>
                     <div class="bottom">
                         <div class="bottom-one">
@@ -77,7 +77,7 @@
             <div class="col-sm-6 col-lg-6">
                 <div class="portfolio-item">
                     <div class="top">
-                        <img src="assets/img/portfolio/portfolio4.jpg" alt="Portfolio">
+                        <img src="{{ asset('landing/img/portfolio/portfolio4.jpg') }}" alt="Portfolio">
                     </div>
                     <div class="bottom">
                         <div class="bottom-one">
@@ -100,7 +100,7 @@
             <div class="col-sm-6 col-lg-6">
                 <div class="portfolio-item">
                     <div class="top">
-                        <img src="assets/img/portfolio/portfolio5.jpg" alt="Portfolio">
+                        <img src="{{ asset('landing/img/portfolio/portfolio5.jpg') }}" alt="Portfolio">
                     </div>
                     <div class="bottom">
                         <div class="bottom-one">

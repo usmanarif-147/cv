@@ -15,7 +15,7 @@
                 <div class="awards-inner">
                     <ul class="align-items-center">
                         <li>
-                            <img src="assets/img/awards/award1.png" alt="Awards">
+                            <img src="{{ asset('landing/img/awards/award1.png') }}" alt="Awards">
                         </li>
                         <li>
                             <h3>Best Graphic Designer</h3>
@@ -26,7 +26,7 @@
                 <div class="awards-inner">
                     <ul class="align-items-center">
                         <li>
-                            <img src="assets/img/awards/award2.png" alt="Awards">
+                            <img src="{{ asset('landing/img/awards/award2.png') }}" alt="Awards">
                         </li>
                         <li>
                             <h3>Design Of The Year</h3>
@@ -37,7 +37,7 @@
                 <div class="awards-inner">
                     <ul class="align-items-center">
                         <li>
-                            <img src="assets/img/awards/award3.png" alt="Awards">
+                            <img src="{{ asset('landing/img/awards/award3.png') }}" alt="Awards">
                         </li>
                         <li>
                             <h3>Best Designer Award</h3>
@@ -48,7 +48,7 @@
             </div>
             <div class="col-sm-6 col-lg-6">
                 <div class="awards-video">
-                    <img src="assets/img/awards/award-main.jpg" alt="Award">
+                    <img src="{{ asset('landing/img/awards/award-main.jpg') }}" alt="Award">
                     <div class="video-wrap">
                         <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
                             <i class="bx bx-play"></i>
