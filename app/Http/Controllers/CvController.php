@@ -12,7 +12,26 @@ use Knp\Snappy\Pdf;
 
 class CvController extends Controller
 {
+
     public function download()
+    {
+        $snappy = App::make('snappy.pdf');
+        //To file
+        $html = '<h1>Bill</h1><p>You owe me money, dude.</p>';
+        $snappy->generateFromHtml($html, '/tmp/bill-123.pdf');
+        $snappy->generate('http://www.github.com', '/tmp/github.pdf');
+        //Or output:
+        return new Response(
+            $snappy->getOutputFromHtml($html),
+            200,
+            array(
+                'Content-Type'          => 'application/pdf',
+                'Content-Disposition'   => 'attachment; filename="file.pdf"'
+            )
+        );
+    }
+
+    public function old_two_download()
     {
         $pdf = SnappyPdf::loadView('chartjs');
         $pdf->setOption('enable-javascript', true);
