@@ -11,7 +11,7 @@
                         of 3+ years in web site design and app design, also I am good at extraordinary
                         design concept. I love to hear from you about your unique needs.</p>
                     <div class="banner-btn-area">
-                        <a class="common-btn" href="#">Contact With Me</a>
+                        <a class="common-btn" href="#">Contact With Usman</a>
                         <a class="common-btn banner-btn" href="#">Hire Me</a>
                     </div>
                     <ul>
