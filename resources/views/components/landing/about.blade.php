@@ -6,7 +6,7 @@
         <div class="about-content">
             <div class="section-title">
                 <span class="sub-title">ABOUT ME</span>
-                <h2>I Am A Product Designer, Specialized In UI/UX Design & Digital Design</h2>
+                <h2>I Am A Backend Developer, Specialized In Database design And API's Development</h2>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                     invidunt ut labore et dolore magna aliquyam erat, seddiam voluptua. At vero eos et
                     accusam et justo duo dolores et ea rebum.</p>
