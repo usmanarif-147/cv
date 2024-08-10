@@ -16,6 +16,50 @@
                 </a>
             </li>
             <li class="">
+                <a href="{{ route('admin.dashboard') }}" aria-expanded="false"
+                    class="{{ request()->is('admin/dashboard') ? 'active' : '' }}">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Resume</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="{{ route('admin.dashboard') }}" aria-expanded="false"
+                    class="{{ request()->is('admin/dashboard') ? 'active' : '' }}">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Expences</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="{{ route('admin.dashboard') }}" aria-expanded="false"
+                    class="{{ request()->is('admin/dashboard') ? 'active' : '' }}">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Horizam</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="{{ route('admin.dashboard') }}" aria-expanded="false"
+                    class="{{ request()->is('admin/dashboard') ? 'active' : '' }}">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Blogs</span>
+                    </div>
+                </a>
+            </li>
+            {{-- <li class="">
                 <a class="has-arrow" href="#" aria-expanded="false">
                     <div class="nav_icon_small">
                         <i class="fa-brands fa-product-hunt"></i>
@@ -48,7 +92,7 @@
                         <span>Manage Profile</span>
                     </div>
                 </a>
-            </li>
+            </li> --}}
         </ul>
     </nav>
 

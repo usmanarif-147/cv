@@ -11,7 +11,6 @@ class Login extends Component
         $email,
         $password;
 
-
     protected function rules()
     {
         return $this->loginFormValidation();
