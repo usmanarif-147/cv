@@ -16,6 +16,35 @@
                 </a>
             </li>
             <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-brands fa-product-hunt"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Interview</span>
+                    </div>
+                </a>
+                <ul>
+                    <li>
+                        <a href="{{ route('admin.interview.technologies') }}">Technology</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('admin.interview.quiz') }}">Quiz</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="">
+                <a href="{{ route('admin.projects') }}" aria-expanded="false"
+                    class="{{ request()->routeIs('admin.projects') ? 'active' : '' }}">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-gauge"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Projects</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
                 <a href="{{ route('admin.dashboard') }}" aria-expanded="false"
                     class="{{ request()->is('admin/dashboard') ? 'active' : '' }}">
                     <div class="nav_icon_small">
@@ -37,17 +66,7 @@
                     </div>
                 </a>
             </li>
-            <li class="">
-                <a href="{{ route('admin.dashboard') }}" aria-expanded="false"
-                    class="{{ request()->is('admin/dashboard') ? 'active' : '' }}">
-                    <div class="nav_icon_small">
-                        <i class="fa-solid fa-gauge"></i>
-                    </div>
-                    <div class="nav_title">
-                        <span>Horizam</span>
-                    </div>
-                </a>
-            </li>
+
             <li class="">
                 <a href="{{ route('admin.dashboard') }}" aria-expanded="false"
                     class="{{ request()->is('admin/dashboard') ? 'active' : '' }}">
@@ -59,21 +78,8 @@
                     </div>
                 </a>
             </li>
+
             {{-- <li class="">
-                <a class="has-arrow" href="#" aria-expanded="false">
-                    <div class="nav_icon_small">
-                        <i class="fa-brands fa-product-hunt"></i>
-                    </div>
-                    <div class="nav_title">
-                        <span>Product</span>
-                    </div>
-                </a>
-                <ul>
-                    <li><a href="#">Flavour</a></li>
-                    <li><a href="#">Nictotine</a></li>
-                </ul>
-            </li>
-            <li class="">
                 <a href="#" aria-expanded="false" class="{{ request()->is('admin/orders') ? 'active' : '' }}">
                     <div class="nav_icon_small">
                         <i class="fa-solid fa-cart-shopping"></i>

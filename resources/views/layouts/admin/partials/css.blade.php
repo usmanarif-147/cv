@@ -2,18 +2,11 @@
 <link rel="stylesheet" href="{{ asset('admin/css/bootstrap1.min.css') }}" />
 <link rel="stylesheet" href="{{ asset('admin/vendors/themefy_icon/themify-icons.css') }}" />
 <link rel="stylesheet" href="{{ asset('admin/vendors/niceselect/css/nice-select.css') }}" />
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/owl_carousel/css/owl.carousel.css') }}" /> --}}
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/gijgo/gijgo.min.css') }}" /> --}}
+
 <link rel="stylesheet" href="{{ asset('admin/vendors/font_awesome/css/all.min.css') }}" />
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/tagsinput/tagsinput.css') }}" /> --}}
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/datepicker/date-picker.css') }}" /> --}}
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/vectormap-home/vectormap-2.0.2.css') }}" /> --}}
+
 <link rel="stylesheet" href="{{ asset('admin/vendors/scroll/scrollable.css') }}" />
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/datatable/css/jquery.dataTables.min.css') }}" /> --}}
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/datatable/css/responsive.dataTables.min.css') }}" /> --}}
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/datatable/css/buttons.dataTables.min.css') }}" /> --}}
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/text_editor/summernote-bs4.css') }}" /> --}}
-{{-- <link rel="stylesheet" href="{{ asset('admin/vendors/morris/morris.css') }}"> --}}
+
 <link rel="stylesheet" href="{{ asset('admin/vendors/material_icon/material-icons.css') }}" />
 <link rel="stylesheet" href="{{ asset('admin/css/metisMenu.css') }}">
 <link rel="stylesheet" href="{{ asset('admin/css/style1.css') }}" />
@@ -25,6 +18,36 @@
 
 
 <style>
+    .tags-input-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .tags-input-container .tag {
+        background-color: #007bff;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .tags-input-container .tag button {
+        background: none;
+        border: none;
+        color: white;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    .tags-input-container input[type="text"] {
+        border: none;
+        padding: 5px;
+        outline: none;
+    }
+
     #multistepform .form-header {
         gap: 5px;
         text-align: center;
@@ -93,21 +116,21 @@
     }
 
     /* #multistepform input {
-        padding: 15px 20px;
-        width: 100%;
-        font-size: 1em;
-        border: 1px solid #e3e3e3;
-        border-radius: 5px;
-    }
+padding: 15px 20px;
+width: 100%;
+font-size: 1em;
+border: 1px solid #e3e3e3;
+border-radius: 5px;
+}
 
-    #multistepform input:focus {
-        border: 1px solid #009688;
-        outline: 0;
-    }
+#multistepform input:focus {
+border: 1px solid #009688;
+outline: 0;
+}
 
-    #multistepform input.invalid {
-        border: 1px solid #ffaba5;
-    } */
+#multistepform input.invalid {
+border: 1px solid #ffaba5;
+} */
 
     #multistepform .step {
         display: none;
@@ -149,32 +172,32 @@
     }
 
     /* input[type="file"] {
-        display: none;
-    }
+display: none;
+}
 
-    .custom-file-upload {
-        border: 2px solid #03A9F4;
-        display: inline-block;
-        padding: 6px 12px;
-        cursor: pointer;
-    }
+.custom-file-upload {
+border: 2px solid #03A9F4;
+display: inline-block;
+padding: 6px 12px;
+cursor: pointer;
+}
 
-    .custom-file-upload {
+.custom-file-upload {
 
-        padding: 16px;
-        border-radius: 11px;
-        background: white;
-        color: #03A9F4;
-        font-size: 17px;
-        font-family: cursive;
-        margin-left: 40%;
-        margin-top: 51px;
+padding: 16px;
+border-radius: 11px;
+background: white;
+color: #03A9F4;
+font-size: 17px;
+font-family: cursive;
+margin-left: 40%;
+margin-top: 51px;
 
-    }
+}
 
-    .custom-file-upload i {
-        color: #03A9F4;
-        font-size: 24px;
-        margin-right: 9px;
-    } */
+.custom-file-upload i {
+color: #03A9F4;
+font-size: 24px;
+margin-right: 9px;
+} */
 </style>

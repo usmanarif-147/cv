@@ -514,7 +514,8 @@ ul {
   z-index: 5;
   width: 500px;
   height: 100%;
-  background-image: url("../img/banner/banner-main1.jpg");
+  /* background-image: url("../img/banner/banner-main1.jpg"); */
+  background-image: url("../../full.png");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;

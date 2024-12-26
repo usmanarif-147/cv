@@ -40,8 +40,9 @@
 
 
     <div class="main-area">
-        <div class="main-left-img">
-            <img src="{{ asset('landing/img/banner/banner-main1.jpg') }}" alt="Image">
+        <div class="main-left-img" style="background-image: {{ url(asset('usman.png')) }} !important">
+            {{-- <img src="{{ asset('landing/img/banner/banner-main1.jpg') }}" alt="Image"> --}}
+            <img src="{{ asset('usman.png') }}" alt="Image">
         </div>
         <div class="main-content">
             <x-landing.home />
